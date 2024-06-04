@@ -20,7 +20,7 @@ findFuJian = re.compile(r'href="(.*?)"')
 
 
 def getDate(dbpath):
-    for id in range(42, 50):
+    for id in range(1, 50):
         datalist = []
         url = "https://www.gd.gov.cn/gkmlpt/api/all/5?page=" + str(id) + "&sid=2"
         print(url)
