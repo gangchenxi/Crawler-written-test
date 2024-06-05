@@ -83,7 +83,7 @@ def getDate(dbpath):
 
             savedatadb(datalist, dbpath)
             datalist = []
-            time.sleep(3)
+            time.sleep(1)
 
         # savedatadb(datalist, dbpath)
 
